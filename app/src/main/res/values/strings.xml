@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">waves of Food</string>
+    <string name="next">Next</string>
+    <string name="image">image</string>
+    <string name="deliver_favorite_food">Deliver Favorite Food</string>
+    <string name="login_to_your_account">Login To Your Account</string>
+    <string name="waves_of_food">waves of food\n</string>
+    <string name="email_or_phone_number">Email or Phone Number</string>
+    <string name="password">password</string>
+    <string name="deliever_favorite_food">Deliever Favorite Food</string>
+    <string name="design_by_ndevquest">Design By\nDevQuest</string>
+    <string name="logo_image">logo_image</string>
+</resources>
