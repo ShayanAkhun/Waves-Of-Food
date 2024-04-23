@@ -47,9 +47,9 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="11dp"
-        android:textSize="20sp"
-        android:textColor="@color/textColor"
         android:text="@string/login_to_your_account"
+        android:textColor="@color/textColor"
+        android:textSize="20sp"
         app:layout_constraintEnd_toEndOf="@+id/textView7"
         app:layout_constraintStart_toStartOf="@+id/textView7"
         app:layout_constraintTop_toBottomOf="@+id/textView7" />
@@ -58,15 +58,16 @@
         android:id="@+id/editTextTextEmailAddress"
         android:layout_width="325dp"
         android:layout_height="57dp"
-        android:drawableLeft="@drawable/email"
+        android:drawableStart="@drawable/email"
         android:drawablePadding="15dp"
         android:ems="10"
         android:hint="@string/email_or_phone_number"
         android:inputType="textEmailAddress"
-        android:paddingLeft="15dp"
+        android:paddingStart="15dp"
         app:layout_constraintEnd_toEndOf="@+id/textView8"
         app:layout_constraintStart_toStartOf="@+id/textView8"
-        app:layout_constraintTop_toBottomOf="@+id/textView8" />
+        app:layout_constraintTop_toBottomOf="@+id/textView8"
+        android:autofillHints="Email Or Phone Number" />
 
     <EditText
         android:id="@+id/editTextTextPassword"
@@ -79,7 +80,8 @@
         android:inputType="textPassword"
         android:paddingStart="15dp"
         app:layout_constraintEnd_toEndOf="@+id/editTextTextEmailAddress"
-        app:layout_constraintTop_toBottomOf="@+id/editTextTextEmailAddress" />
+        app:layout_constraintTop_toBottomOf="@+id/editTextTextEmailAddress"
+        android:autofillHints="Password" />
 
     <TextView
         android:id="@+id/textView9"
@@ -111,7 +113,7 @@
         android:layout_marginTop="16dp"
         android:drawableStart="@drawable/facebook_3_1"
         android:text="@string/facebook"
-        android:paddingLeft="15dp"
+        android:paddingStart="15dp"
         android:textAllCaps="false"
         android:background="@drawable/whitebutton"
         app:layout_constraintEnd_toStartOf="@+id/button2"
@@ -124,7 +126,7 @@
         android:layout_width="152dp"
         android:layout_height="57dp"
         android:layout_marginTop="16dp"
-        android:paddingLeft="15dp"
+        android:paddingStart="15dp"
         android:drawableStart="@drawable/google_icon_2"
         android:text="@string/google"
         android:textAllCaps="false"
@@ -154,7 +156,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
-        android:text="Don’t Have Account?"
+        android:text="@string/don_t_have_account"
         android:textSize="14sp"
         android:textColor="@color/textColor"
         app:layout_constraintEnd_toEndOf="@+id/button3"
