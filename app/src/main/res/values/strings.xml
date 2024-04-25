@@ -12,9 +12,11 @@
     <string name="logo_image">logo_image</string>
     <string name="facebook">Facebook</string>
     <string name="google">Google</string>
-    <string name="or">Or</string>
     <string name="continue_with">Continue With</string>
     <string name="login">Login</string>
     <string name="don_t_have_account">Don’t Have Account?</string>
-    <string name="Or" />
+
+    <string name="name">Name</string>
+    <string name="or">or</string>
+    <string name="sign_up_with">Sign Up With</string>
 </resources>
