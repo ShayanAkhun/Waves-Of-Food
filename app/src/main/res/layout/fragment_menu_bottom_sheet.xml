@@ -3,11 +3,20 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
+    android:background="@color/white"
     android:orientation="vertical"
-    android:gravity="center"
     tools:context=".MenuBottomSheetFragment">
 
     <!-- TODO: Update blank fragment layout -->
+    <ImageButton
+        android:id="@+id/bottomSheetBackButton"
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:background="@android:color/transparent"
+        android:src="@drawable/backicon"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
+        />
     <TextView
         android:gravity="center"
         android:textColor="@color/black"
