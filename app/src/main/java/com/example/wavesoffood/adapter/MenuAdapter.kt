@@ -6,9 +6,9 @@ import androidx.recyclerview.widget.RecyclerView
 import com.example.wavesoffood.databinding.MenuItemBinding
 
 class MenuAdapter(
-    private val menuItemsName: MutableList<String>,
-    private val menuItemPrice: MutableList<String>,
-    private val menuImage: MutableList<Int>
+    private val menuItemsName: List<String>,
+    private val menuItemPrice: List<String>,
+    private val menuImage: List<Int>
 ) : RecyclerView.Adapter<MenuAdapter.MenuViewHolder>() {
 
 
