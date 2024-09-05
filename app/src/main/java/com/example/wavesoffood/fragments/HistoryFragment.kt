@@ -6,7 +6,7 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import com.example.wavesoffood.R
-
+import com.example.wavesoffood.databinding.FragmentHistoryBinding
 
 
 /**
@@ -15,7 +15,7 @@ import com.example.wavesoffood.R
  * create an instance of this fragment.
  */
 class HistoryFragment : Fragment() {
-
+        private lateinit var binding: FragmentHistoryBinding
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         arguments?.let {
@@ -27,8 +27,8 @@ class HistoryFragment : Fragment() {
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
-        // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_history, container, false)
+            binding= FragmentHistoryBinding.inflate(layoutInflater,container,false)
+        return binding.root
     }
 
 }
