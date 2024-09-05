@@ -70,7 +70,7 @@
                 app:layout_constraintStart_toStartOf="parent" app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintBottom_toBottomOf="parent"
                 android:layout_marginTop="16dp"
-                    tools:listitem="@layout/buy_again_item"
-        />
+                tools:listitem="@layout/buy_again_item"
+                android:id="@+id/buyAgainRecyclerView"/>
     </androidx.constraintlayout.widget.ConstraintLayout>
 </FrameLayout>
