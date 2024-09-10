@@ -163,5 +163,5 @@
 			android:layout_marginLeft="16dp"
 			android:layout_marginRight="16dp"
 			android:layout_marginBottom="32dp"
-			android:background="@drawable/edittextshape"/>
+			android:background="@drawable/edittextshape" android:id="@+id/placemyorderbutton"/>
 </FrameLayout>

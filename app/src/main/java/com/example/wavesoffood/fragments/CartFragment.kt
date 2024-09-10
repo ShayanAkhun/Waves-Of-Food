@@ -11,6 +11,7 @@ import com.example.wavesoffood.PaymentActivity
 import com.example.wavesoffood.R
 import com.example.wavesoffood.adapter.CartAdapter
 import com.example.wavesoffood.databinding.FragmentCartBinding
+import com.example.wavesoffood.databinding.FragmentCongratsBottomSheetBinding
 
 
 class CartFragment : Fragment() {
