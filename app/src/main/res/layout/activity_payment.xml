@@ -50,7 +50,7 @@
 				android:ems="10"
 				android:layout_weight="1"
 				android:background="@android:color/transparent" android:fontFamily="@font/lato"
-				android:textColor="@color/ProfileTextColor"/>
+				android:textColor="@color/ProfileTextColor" android:layout_marginBottom="9dp"/>
 	</LinearLayout>
 	<LinearLayout
 			android:orientation="horizontal"
@@ -98,7 +98,8 @@
 				android:ems="10"
 				android:layout_weight="1"
 				android:background="@android:color/transparent" android:fontFamily="@font/lato"
-				android:textColor="@color/ProfileTextColor" android:textAlignment="textStart"/>
+				android:textColor="@color/ProfileTextColor" android:textAlignment="textStart"
+				android:layout_marginBottom="9dp"/>
 	</LinearLayout>
 	<LinearLayout
 			android:orientation="horizontal"

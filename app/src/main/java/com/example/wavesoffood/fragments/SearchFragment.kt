@@ -75,7 +75,7 @@ class SearchFragment : Fragment() {
         savedInstanceState: Bundle?
     ): View? {
         binding = FragmentSearchBinding.inflate(inflater, container, false)
-        adapter = MenuAdapter(filteredMenuFoodName, filteredMenuItemPrice, filteredMenuImage)
+        adapter = MenuAdapter(filteredMenuFoodName, filteredMenuItemPrice, filteredMenuImage,requireContext())
         binding.searchMenuRecyclerView.layoutManager = LinearLayoutManager(requireContext())
         binding.searchMenuRecyclerView.adapter = adapter
         setupSearchFilter()

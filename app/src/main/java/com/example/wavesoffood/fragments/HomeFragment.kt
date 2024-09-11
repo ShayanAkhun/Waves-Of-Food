@@ -16,7 +16,7 @@ import com.example.wavesoffood.adapter.PopularAdapter
 import com.example.wavesoffood.databinding.FragmentHomeBinding
 
 
-class HomeFragment : Fragment() {
+class  HomeFragment : Fragment() {
     private lateinit var binding: FragmentHomeBinding
 
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -65,7 +65,7 @@ class HomeFragment : Fragment() {
         val foodPrices = listOf("$5", "$10", "$20","$5", "$10", "$20")
         val popularFoodImages = listOf(R.drawable.menu1,R.drawable.menu2,R.drawable.menu3,R.drawable.menu1,R.drawable.menu2,R.drawable.menu3)
 
-        val adapter = PopularAdapter(foodName,foodPrices,popularFoodImages)
+        val adapter = PopularAdapter(foodName,foodPrices,popularFoodImages,requireContext())
         binding.PopularRecyclerView.layoutManager = LinearLayoutManager(requireContext())
         binding.PopularRecyclerView.adapter = adapter
 
