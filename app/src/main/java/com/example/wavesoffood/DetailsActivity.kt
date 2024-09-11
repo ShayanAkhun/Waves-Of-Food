@@ -10,7 +10,7 @@ class DetailsActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         binding = ActivityDetailsBinding.inflate(layoutInflater)
       binding.detailsBackButton.setOnClickListener {
-         
+         finish()
       }
         setContentView(binding.root)
         val foodName  = intent.getStringExtra("MenuItems")

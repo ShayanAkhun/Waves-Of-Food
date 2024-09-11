@@ -40,7 +40,7 @@
 			android:layout_width="wrap_content"
 			android:layout_height="wrap_content" android:id="@+id/textView30"
 			app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@+id/cardView4"
-			android:layout_marginTop="16dp" android:layout_marginStart="8dp"
+			android:layout_marginTop="16dp" android:layout_marginStart="32dp"
 			android:fontFamily="@font/yeonsung_regular" android:textSize="20sp" android:textColor="@color/black"/>
 	<TextView
 			android:text="Short description Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad"
@@ -48,7 +48,7 @@
 			android:layout_height="wrap_content" android:id="@+id/descriptionTextView"
 			app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@+id/textView30"
 			app:layout_constraintEnd_toEndOf="parent" android:layout_marginTop="8dp"
-			app:layout_constraintHorizontal_bias="0.022" android:layout_marginStart="8dp"
+			app:layout_constraintHorizontal_bias="0.022" android:layout_marginStart="32dp"
 			android:layout_marginEnd="8dp" android:textColor="@color/black" android:textSize="18sp"
 			android:fontFamily="@font/lato"/>
 	<TextView
@@ -57,16 +57,17 @@
 			android:layout_height="wrap_content" android:id="@+id/textView32"
 			app:layout_constraintTop_toBottomOf="@+id/descriptionTextView"
 			app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent"
-			android:layout_marginTop="16dp" app:layout_constraintHorizontal_bias="0.022" android:textSize="20sp"
-			android:textColor="@color/black" android:fontFamily="@font/yeonsung_regular"/>
+			android:layout_marginTop="16dp" app:layout_constraintHorizontal_bias="0.0" android:textSize="20sp"
+			android:textColor="@color/black" android:fontFamily="@font/yeonsung_regular"
+			android:layout_marginStart="32dp"/>
 	<TextView
 			android:text="Strowberry \nCream \nwheat"
 			android:layout_width="wrap_content"
 			android:layout_height="wrap_content" android:id="@+id/ingredientsTextView"
 			app:layout_constraintTop_toBottomOf="@+id/textView32" app:layout_constraintStart_toStartOf="parent"
 			app:layout_constraintEnd_toEndOf="parent" android:layout_marginTop="8dp"
-			app:layout_constraintHorizontal_bias="0.022" android:fontFamily="@font/lato" android:textSize="18sp"
-			android:textColor="@color/black"/>
+			app:layout_constraintHorizontal_bias="0.0" android:fontFamily="@font/lato" android:textSize="18sp"
+			android:textColor="@color/black" android:layout_marginStart="32dp"/>
 	<androidx.appcompat.widget.AppCompatButton
 			android:text="Add To Cart"
 			android:layout_width="326dp"
