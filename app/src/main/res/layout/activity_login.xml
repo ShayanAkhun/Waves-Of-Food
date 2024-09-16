@@ -134,20 +134,20 @@
         app:layout_constraintTop_toBottomOf="@+id/textView10" />
 
     <androidx.appcompat.widget.AppCompatButton
-        android:id="@+id/button2"
-        android:layout_width="152dp"
-        android:layout_height="57dp"
-        android:layout_marginTop="16dp"
-        android:background="@drawable/whitebutton"
-        android:drawableStart="@drawable/google_icon_2"
-        android:fontFamily="@font/yeonsung_regular"
-        android:paddingStart="15dp"
-        android:text="@string/google"
-        android:textAllCaps="false"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toEndOf="@+id/button"
-        app:layout_constraintTop_toBottomOf="@+id/textView10" />
+            android:id="@+id/button2"
+            android:layout_width="152dp"
+            android:layout_height="57dp"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/whitebutton"
+            android:drawableStart="@drawable/google_icon_2"
+            android:fontFamily="@font/lato_regular"
+            android:paddingStart="15dp"
+            android:text="@string/google"
+            android:textAllCaps="false"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toEndOf="@+id/button"
+            app:layout_constraintTop_toBottomOf="@+id/textView10"/>
 
     <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/loginbutton"
