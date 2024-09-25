@@ -18,7 +18,7 @@ class LoginActivity : AppCompatActivity() {
         enableEdgeToEdge()
         setContentView(binding.root)
         binding.loginbutton.setOnClickListener{
-            val intent = Intent(this, SigninActivity::class.java)
+            val intent = Intent(this,MainActivity::class.java)
             startActivity(intent)
         }
         binding.dhabutton.setOnClickListener{
