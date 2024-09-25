@@ -15,6 +15,7 @@ class PaymentActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         binding = ActivityPaymentBinding.inflate(layoutInflater)
         setContentView(binding.root)
+        binding.imageButton.setOnClickListener {  finish() }
         binding.placemyorderbutton.setOnClickListener{
             val bottomSheetDialog = CongratsBottomSheet()
             bottomSheetDialog.show(supportFragmentManager, "test")

@@ -6,20 +6,6 @@
     android:layout_height="match_parent"
     tools:context=".SplashActivity" android:background="@color/white">
 
-    <TextView
-        android:id="@+id/textView3"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginBottom="32dp"
-        android:fontFamily="@font/yeonsung_regular"
-        android:text="@string/design_by_ndevquest"
-        android:textAlignment="center"
-        android:textColor="@color/textColor"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
-        app:layout_constraintStart_toStartOf="parent" />
-
     <ImageView
         android:id="@+id/imageView"
         android:layout_width="wrap_content"
